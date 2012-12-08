@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "chinese_cities"
   gem.require_paths = ["lib"]
   gem.version       = ChineseCities::VERSION
+
+  gem.add_development_dependency "rspec", "~> 2.11"
 end

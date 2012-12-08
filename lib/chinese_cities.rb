@@ -1,3 +1,5 @@
+# encoding: utf-8
+ 
 require "chinese_cities/version"
 
 module ChineseCities
