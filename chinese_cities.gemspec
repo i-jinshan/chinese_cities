@@ -4,9 +4,9 @@ require File.expand_path('../lib/chinese_cities/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["zhouguangming"]
   gem.email         = ["zhouguangming1989@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Chinese provinces and cities collection}
+  gem.summary       = %q{Chinese provinces and cities collection}
+  gem.homepage      = "https://github.com/zhouguangming/chinese_cities"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
